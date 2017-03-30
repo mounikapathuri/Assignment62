@@ -1,0 +1,30 @@
+package hello;
+import java.util.Scanner;
+public class Assignment24 {
+
+	public static void main(String[] args) {
+	
+				testDemo td= new testDemo();
+				td.result();
+				
+			}
+		}
+			class testDemo{
+				public void result(){
+					int n;
+					System.out.println("Enter a number:");
+					Scanner sc= new Scanner(System.in);
+					n=sc.nextInt();
+					if(n==0){
+						System.out.println("you entered zero");
+					}
+					else if(n>0){
+						System.out.println("You Entered a positive number:");
+					}
+					else if(n<0) {
+					System.out.println("You Enter a negative number:");
+					}
+					sc.close();
+	}
+
+}
