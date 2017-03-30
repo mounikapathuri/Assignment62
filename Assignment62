@@ -1,0 +1,16 @@
+package hello;
+
+public class Assignment62 {
+
+	public static void main(String[] args) {
+		
+				int arr[]={1,3,5,7,11,13,17,19,21,23};
+				int arr2[] =new int[arr.length];
+				for(int i=9;i>=0;i--){
+					arr2[i]=arr[i];
+					System.out.printf(" "+arr[i]);
+				}
+				
+	}
+
+}
